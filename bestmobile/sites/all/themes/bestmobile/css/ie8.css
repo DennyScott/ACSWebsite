@@ -1,0 +1,57 @@
+/**
+ * @package Website_Template
+ * @since Website 1.0
+ */
+
+/* =Styles
+----------------------------------------------------------------------------- */
+label > input {
+	position: relative;
+	top: 2px;
+}
+label > span {
+	margin-left: 3px;
+}
+label > span:before {
+	display: none;
+}
+input[type="text"], input[type="password"] {
+	line-height: 26px;
+}
+
+/* =Conditional classes
+----------------------------------------------------------------------------- */
+.lte-ie8 {
+	display: block;
+}
+span.lte-ie8 {
+	display: inline;
+}
+
+/* =Search
+----------------------------------------------------------------------------- */
+#search input {
+	line-height: 24px;
+}
+#header h1 a:hover {
+	float: left;
+}
+.items {
+	width: auto;
+}
+.items .item {
+	width: auto;
+	margin: 10px 15px 10px 0;
+}
+.items .item .image img {
+	width: auto;
+}
+	.items.medium .item {	
+		width: 460px;
+	}
+	.items.small .item {
+		width: 300px;
+	}
+	.items.tiny .item {
+		width: 220px;
+	}
